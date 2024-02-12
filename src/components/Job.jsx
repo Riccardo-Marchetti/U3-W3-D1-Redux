@@ -25,7 +25,7 @@ const Job = ({ data }) => {
           onClick={() => {
             dispatch({
               type: "ADD_TO_FAVOURITES",
-              payload: data.company_name,
+              payload: data,
             });
           }}
         >

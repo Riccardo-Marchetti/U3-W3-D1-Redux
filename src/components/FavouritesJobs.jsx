@@ -31,7 +31,9 @@ const FavouritesJobs = () => {
                       style={{ border: "1px solid #00000033", borderRadius: 4 }}
                     >
                       <Col xs={8}>
-                        <Link to={`/${name}`}>{name} </Link>
+                        <Link to={`/${name.company_name}`}>
+                          {name.company_name}{" "}
+                        </Link>
                       </Col>
                       {/* <Col xs={8}>
                       <a href={name.url} target="_blank" rel="noreferrer">
