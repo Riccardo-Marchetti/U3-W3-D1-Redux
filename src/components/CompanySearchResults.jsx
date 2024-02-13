@@ -11,7 +11,6 @@ const CompanySearchResults = () => {
   const [jobs, setJobs] = useState([]);
   const params = useParams();
   const navigate = useNavigate();
-
   const buttonLabel = useSelector((state) => {
     return state.favourite.content.length;
   });
